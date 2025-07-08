@@ -5,7 +5,7 @@ import { Progress } from "@/components/ui/progress"
 import { Badge } from "@/components/ui/badge"
 import { Target, TrendingUp, Zap } from "lucide-react"
 
-export function UserStats() {
+export default function ComponentName() {
   return (
     <Card className="bg-white/60 backdrop-blur-sm">
       <CardHeader>
