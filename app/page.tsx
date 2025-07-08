@@ -6,11 +6,12 @@ import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Leaf, Zap, Trophy, TreePine, Droplets, Recycle, TrendingUp, Globe, Sparkles } from "lucide-react"
-import EnergyChart from "./components/energy-chart"
-import CommunityGoals from "./components/community-goals"
-import SustainabilityActions from "./components/sustainability-actions"
-import UserStats from "./components/user-stats"
-import BadgeCollection from './components/badge-collection'
+import { EnergyChart } from "./components/energy-chart"
+import { CommunityGoals } from "./components/community-goals"
+import { SustainabilityActions } from "./components/sustainability-actions"
+import { UserStats } from "./components/user-stats"
+import { BadgeCollection } from "./components/badge-collection"
+
 
 export default function AIrthDashboard() {
   const [activeTab, setActiveTab] = useState("overview")
