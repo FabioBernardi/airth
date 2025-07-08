@@ -53,7 +53,7 @@ const actions = [
   },
 ]
 
-export function SustainabilityActions() {
+export default function ComponentName() {
   return (
     <div className="space-y-6">
       {/* Header */}
