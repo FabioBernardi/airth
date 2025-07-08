@@ -86,7 +86,7 @@ const achievements = [
   },
 ]
 
-export function BadgeCollection() {
+export default function BadgeCollection() {
   return (
     <div className="space-y-6">
       {/* Badge Collection */}
