@@ -32,7 +32,7 @@ const communityGoals = [
   },
 ]
 
-export function CommunityGoals() {
+export default function ComponentName() {
   return (
     <Card className="bg-white/60 backdrop-blur-sm">
       <CardHeader>
