@@ -14,7 +14,7 @@ const energyData = [
   { day: "Sun", energy: 2.2, co2: 0.7 },
 ]
 
-export function EnergyChart() {
+export default function ComponentName() {
   return (
     <Card className="bg-white/60 backdrop-blur-sm">
       <CardHeader>
